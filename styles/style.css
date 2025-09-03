@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "TikTok Sans Display";
+  src: url("/fonts/TikTok-Sans-Display-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.count-down {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.timer {
+  display: flex;
+  gap: 40px;
+  margin: 1em 0;
+  font-family: "TikTok Sans Display", sans-serif;
+}
+
+.timer-box {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 205px;
+  font-size: 130px;
+  font-weight: bold;
+  line-height: 123px;
+}
