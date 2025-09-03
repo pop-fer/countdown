@@ -1,54 +1,60 @@
-<!DOCTYPE html>
-<html lang="es">
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Countdown</title>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="stylesheet" href="/src/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
   <style>
-.count-down {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background-color: #1a1a1a;
-  color: white;
-}
+    .count-down {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: #1a1a1a;
+      color: white;
+    }
 
-.timer {
-  display: flex;
-  gap: 40px;
-  margin: 1em 0;
-  font-family: "TikTok Sans Display";
-}
+    .timer {
+      display: flex;
+      gap: 40px;
+      margin: 1em 0;
+      font-family: "TikTok Sans Display";
+    }
 
-.timer-box {
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 205px;
-  height: 184px;
-  background-color: rgba(255, 255, 255, 0.4);
-  padding: 30px 0;
-  border-radius: 40px;
-  font-size: 130px;
-  line-height: 123px;
-}
+    .timer-box {
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 205px;
+      height: 184px;
+      background-color: rgba(255, 255, 255, 0.4);
+      padding: 30px 0;
+      border-radius: 40px;
+      font-size: 130px;
+      line-height: 123px;
+    }
 
-button {
-  margin: 0.5em;
-}
-
+    button {
+      margin: 0.5em;
+    }
+  </style>
 </head>
+
 <body>
-    <div class="count-down">
-      <h1>Countdown Timer</h1>
-      <div class="timer">
-        <div class="timer-box days">00</div>
-        <div class="timer-box hours">00</div>
-        <div class="timer-box minutes">00</div>
-        <div class="timer-box seconds">00</div>
-      </div>
+  <div class="count-down">
+    <h1>Countdown Timer</h1>
+    <div class="timer">
+      <div class="timer-box days">00</div>
+      <div class="timer-box hours">00</div>
+      <div class="timer-box minutes">00</div>
+      <div class="timer-box seconds">00</div>
     </div>
+  </div>
+  <script type="module" src="/src/main.js"></script>
 </body>
+
 </html>
