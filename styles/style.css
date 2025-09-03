@@ -13,13 +13,13 @@
   height: 100vh;
   background-color: #1a1a1a;
   color: white;
+  font-family: "TikTok Sans Display", sans-serif;
 }
 
 .timer {
   display: flex;
   gap: 40px;
   margin: 1em 0;
-  font-family: "TikTok Sans Display", sans-serif;
 }
 
 .timer-box {
@@ -29,6 +29,21 @@
   justify-content: center;
   width: 205px;
   font-size: 130px;
+  padding: 30px 0;
   font-weight: bold;
   line-height: 123px;
+  border-radius: 24.238px;
+  background: rgba(255, 255, 255, 0.4);
+  background-blend-mode: soft-light;
+  backdrop-filter: blur(33.93281555175781px);
+}
+
+.time-text {
+  color: #fff;
+  text-align: center;
+  font-size: 31.733px;
+  font-weight: 700;
+  line-height: 30.147px; /* 95% */
+  text-transform: uppercase;
+  margin-top: 23px;
 }
