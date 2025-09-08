@@ -46,3 +46,24 @@
   text-transform: uppercase;
   margin-top: 23px;
 }
+
+@media (max-width: 1024px) {
+  .timer {
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .timer-box {
+    width: 45vw;
+    font-size: 85px;
+    padding: 20px 0;
+  }
+
+  .time-text {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+}
+
