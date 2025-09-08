@@ -5,34 +5,13 @@
   font-style: normal;
 }
 
-
-@media (max-width: 1024px) {
-  .timer {
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .timer-box {
-    width: 134px;
-    height: 120px;
-    font-size: 85px;
-    padding: 20px 0;
-  }
-
-  .time-text {
-    font-size: 20px;
-    margin-top: 15px;
-  }
-}
-
 .count-down {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: auto;
+  height: 100vh;
+  background-color: #1a1a1a;
   color: white;
   font-family: "TikTok Sans Display", sans-serif;
 }
@@ -48,6 +27,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  max-width: 205px;
   width: 205px;
   font-size: 130px;
   padding: 30px 0;
@@ -69,5 +49,24 @@
   margin-top: 23px;
 }
 
+/* --- Estilos responsivos --- */
+@media (max-width: 1024px) {
+  .timer {
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+  }
 
+  .timer-box {
+    width: 134px;
+    height: 120px;
+    font-size: 85px;
+    padding: 20px 0;
+  }
 
+  .time-text {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+}
