@@ -48,7 +48,7 @@
 }
 
 /* --- Estilos responsivos --- */
-@media (max-width: 1024px) {
+@media (max-width: 1070px) {
   .timer {
     gap: 20px;
     flex-wrap: wrap;
