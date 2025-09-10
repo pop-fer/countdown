@@ -1,12 +1,12 @@
 // Tomar el año actual
 const year = new Date().getFullYear();
 
-// Definir fecha objetivo → 24 septiembre a las 23:59:59
-let targetDate = new Date(`${year}-09-24T23:59:59`).getTime();
+// Definir fecha objetivo → 1 octubre a las 23:59:59
+let targetDate = new Date(`${year}-10-01T23:59:59`).getTime();
 
-// Si ya pasó el 24 de septiembre de este año, usar el próximo año
+// Si ya pasó el 1 de octubre de este año, usar el próximo año
 if (Date.now() > targetDate) {
-  targetDate = new Date(`${year + 1}-09-24T23:59:59`).getTime();
+  targetDate = new Date(`${year + 1}-10-01T23:59:59`).getTime();
 }
 
 function updateCountdown() {
